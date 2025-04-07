@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bb13183680a0fb9b",
+        "id": "5caa66880963bd2a",
         "type": "tabs",
         "children": [
           {
-            "id": "bd595641651e3c56",
+            "id": "7df6b353ea697d89",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,6 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd595641651e3c56",
-  "lastOpenFiles": []
+  "active": "7df6b353ea697d89",
+  "lastOpenFiles": [
+    "_daily/Standard Library for JavaScript Runtimes (James Snell Talk).md",
+    "_daily/Index.md",
+    "index.md",
+    "2025-04-07.md",
+    "_daily"
+  ]
 }
