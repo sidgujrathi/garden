@@ -1,11 +1,6 @@
-<h1 align="center">A online space for my <i>public</i> notebook</h1>
-
-A garden where I start with a seed and hope to cultivate it to make it to a fruitful tree.
-
 ---
-# Index
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-- [[_daily/Index|Today I Learned]]
+layout: home
 ---
-
-![[_daily/Index|Index]]
