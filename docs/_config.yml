@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The Garden
+author: Siddharth Gujrathi
 description: A garden where I start with a seed and hope to cultivate it to make it to a fruitful tree.
 baseurl: "/garden" # the subpath of your site, e.g. /blog
 url: "https://sidgujrathi.github.io"

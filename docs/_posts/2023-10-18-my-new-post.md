@@ -2,7 +2,7 @@
 layout: post
 title:  "Standard Library for JavaScript Runtimes (James Snell Talk)"
 date:   2023-10-18
-categories: Today I Learned
+categories: ["Today I Learned"]
 ---
 #### October 18, 2023
 
