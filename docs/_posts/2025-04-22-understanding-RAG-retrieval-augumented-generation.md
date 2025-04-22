@@ -31,11 +31,16 @@ categories:
 	- Embedding model creates this embedding chunks and store in **Vector DB**
 - Online Part
 	- As soon as prompt comes up, we go to RAG retriever, it takes question / prompt creates vector of it and do the similar search in vector DB
-		- Question - ==Who initiates this? A model is responsible for this or as developer you have to introduce this step to kick in RAG retriever==
+		- Question - <mark>Who initiates this? A model is responsible for this or as developer you have to introduce this step to kick in RAG retriever</mark>
 	- Vector DB will return top K similar chunks
 	- Then these chunks will be added as context with prompt to LLM
-		- ==Who is responsible to do this step?==
+		- <mark>Who is responsible to do this step?</mark>
 	- LLM uses context and it's training data to response to the prompt
 
 
 ![RAG]({{ site.baseurl }}/assets/images/RAG-working.png)
+
+
+**Resources:**
+- https://www.youtube.com/watch?v=T-D1OfcDW1M
+- https://www.youtube.com/watch?v=HdafI0t3sEY
