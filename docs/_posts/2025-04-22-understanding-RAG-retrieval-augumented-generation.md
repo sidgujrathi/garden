@@ -5,6 +5,7 @@ date: 2025-04-22
 categories:
   - Today I Learned
   - Seed
+  - AI
 ---
 ### April 22, 2025
 
