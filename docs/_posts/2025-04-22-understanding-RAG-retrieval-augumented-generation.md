@@ -29,13 +29,14 @@ categories:
 	- Online part - retrieve and answer's the queries
 - Offline / Pre-requisite
 	- You break down your knowledge in chunks and create vector embeddings for each chunk. This is done using **embedding model**
+		- This phase can be implemented using framework like langchain
 	- Embedding model creates this embedding chunks and store in **Vector DB**
 - Online Part
 	- As soon as prompt comes up, we go to RAG retriever, it takes question / prompt creates vector of it and do the similar search in vector DB
-		- Question - <mark>Who initiates this? A model is responsible for this or as developer you have to introduce this step to kick in RAG retriever</mark>
+		- This phase can be implemented using framework like langchain
 	- Vector DB will return top K similar chunks
 	- Then these chunks will be added as context with prompt to LLM
-		- <mark>Who is responsible to do this step?</mark>
+		- This phase can be implemented using framework like langchain
 	- LLM uses context and it's training data to response to the prompt
 
 
