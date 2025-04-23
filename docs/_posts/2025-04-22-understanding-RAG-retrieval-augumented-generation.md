@@ -28,12 +28,12 @@ categories:
 	- Offline part / pre-requisite - You ingest and index knowledge
 	- Online part - retrieve and answer's the queries
 - Offline / Pre-requisite
-	- You break down your knowledge in chunks and create vector embeddings for each chunk. This is done using **embedding model**
+	- You break down your knowledge in chunks and create vector embeddings for each chunk. This is done using **[embedding model][1]**
 		- This phase can be implemented using framework like langchain
 	- Embedding model creates this embedding chunks and store in **Vector DB**
 - Online Part
 	- As soon as prompt comes up, we go to RAG retriever, it takes question / prompt creates vector of it and do the similar search in vector DB
-		- This phase can be implemented using framework like langchain
+		- This phase can be implemented using framework like langchain [[1]]
 	- Vector DB will return top K similar chunks
 	- Then these chunks will be added as context with prompt to LLM
 		- This phase can be implemented using framework like langchain
@@ -44,5 +44,9 @@ categories:
 
 
 **Resources:**
-- https://www.youtube.com/watch?v=T-D1OfcDW1M
-- https://www.youtube.com/watch?v=HdafI0t3sEY
+- [https://www.youtube.com/watch?v=T-D1OfcDW1M](https://www.youtube.com/watch?v=T-D1OfcDW1M)
+- [https://www.youtube.com/watch?v=HdafI0t3sEY](https://www.youtube.com/watch?v=HdafI0t3sEY)
+- [Langchain embedding models](https://python.langchain.com/docs/concepts/embedding_models/)
+- [Langchain embedding Component](https://python.langchain.com/docs/integrations/text_embedding/)
+
+[1]: https://python.langchain.com/docs/concepts/embedding_models/ "Embedding models"
