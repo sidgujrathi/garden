@@ -14,4 +14,3 @@ categories:
 
 #### Prompting Techniques
 ##### 1. Zero-Shot Prompting
-	
